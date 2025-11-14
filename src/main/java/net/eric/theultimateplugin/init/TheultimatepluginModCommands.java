@@ -1,0 +1,13 @@
+package net.eric.theultimateplugin.init;
+
+import org.bukkit.plugin.java.JavaPlugin;
+
+import net.eric.theultimateplugin.commands.Thecommandthatwillneverdoanythingsinceitdonthaveacodeforitsoyoushouldntdothis;
+import net.eric.theultimateplugin.commands.Thecommandthatletstheserverspaninthechateventhoughtheconsolewontseeit;
+
+public class TheultimatepluginModCommands {
+	public static void register(JavaPlugin plugin) {
+		plugin.getCommand("thecommandthatwillneverdoanythingsinceitdonthaveacodeforitsoyoushouldntdothis").setExecutor(new Thecommandthatwillneverdoanythingsinceitdonthaveacodeforitsoyoushouldntdothis());
+		plugin.getCommand("thecommandthatletstheserverspaninthechateventhoughtheconsolewontseeit").setExecutor(new Thecommandthatletstheserverspaninthechateventhoughtheconsolewontseeit());
+	}
+}

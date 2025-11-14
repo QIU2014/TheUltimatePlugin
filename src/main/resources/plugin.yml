@@ -1,0 +1,12 @@
+main: net.eric.theultimateplugin.TheultimatepluginMod
+name: TheUltimatePlugin
+version: 1.0.0
+authors: [MCreator]
+website: https://mcreator.net
+api-version: 1.21
+
+commands:
+  thecommandthatwillneverdoanythingsinceitdonthaveacodeforitsoyoushouldntdothis:
+    permission: thecommandthatwillneverdoanythingsinceitdonthaveacodeforitsoyoushouldntdothis.use
+  thecommandthatletstheserverspaninthechateventhoughtheconsolewontseeit:
+    permission: thecommandthatletstheserverspaninthechateventhoughtheconsolewontseeit.use
